@@ -1,0 +1,52 @@
+
+header{
+	background: #ffffca ;
+}
+
+.wrapper{
+	display: flex;
+	height: calc(100% - 200px) ;
+}
+
+
+.wrapper .side-bar
+{
+   flex: 2;
+   height: 900px;
+   background: green;
+}
+
+.wrapper .admin-content
+{
+   flex: 8;
+   height: 600px;
+   padding: 40px 100px 100px;
+   overflow-y: scroll;
+}
+
+
+.wrapper .side-bar ul 
+{
+  list-style: none;
+  
+}
+.wrapper .side-bar ul li a
+{
+  padding: 18px;
+  display: block;
+  border-bottom: 1px solid #204044;
+}
+
+.wrapper .side-bar ul li a:hover
+{
+    background: #204044;
+}
+
+
+.error
+{
+  margin: 0px auto;
+  border: 1px solid #a94442;
+  background: #f2dede;
+  padding: 10px;
+}
